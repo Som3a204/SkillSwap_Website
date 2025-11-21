@@ -1,0 +1,42 @@
+:root{
+--primary: #2b6ef6;
+--muted: #6c757d;
+--soft: #f6f9ff;
+}
+
+
+html,body,#root{height:100%}
+body{font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; background: #f8f9fb}
+
+
+/* Header / hero */
+.hero{padding-top:40px;padding-bottom:40px}
+.hero-card{border-radius:14px}
+.avatar-lg{width:64px;height:64px}
+.avatar-xl{width:96px;height:96px;font-size:34px}
+
+
+.badge.bg-soft{background: linear-gradient(90deg,#f0f6ff,#ffffff); color: #0d6efd; border:1px solid #e6eefc}
+
+
+.feature{border-radius:8px}
+
+
+/* Chat */
+.chat-card{border-radius:10px}
+.chat-card .messages{padding:8px}
+
+
+/* Video */
+.mock-video{width:320px; height:220px; background: linear-gradient(180deg,#eef6ff,#ffffff); display:flex;align-items:center;justify-content:center;border-radius:8px}
+
+
+/* responsive tweaks */
+@media(max-width:576px){
+.hero .text-end{ text-align:center !important }
+.hero .d-flex.justify-content-end{ justify-content:center !important }
+}
+
+
+/* small visuals */
+.btn-primary{background:var(--primary);border-color:var(--primary)}
